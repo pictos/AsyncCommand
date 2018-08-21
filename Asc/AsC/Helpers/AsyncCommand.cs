@@ -4,6 +4,7 @@ using Xamarin.Forms;
 
 namespace AsC.Helpers
 {
+    //Pra subir
     public class AsyncCommand : Command
     {
         public AsyncCommand(Func<Task> execute, bool CanExecute) : base(() => execute(), () => CanExecute)

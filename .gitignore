@@ -3,3 +3,8 @@
 ################################################################################
 
 /TestResults/c062f49c-9608-4db5-a906-11b07af79d0b
+/.vs/AsC
+/Asc/AsC.Android/obj
+/Asc/AsC.iOS/obj
+/Asc/AsC.UWP/obj
+/Asc/AsC/obj
