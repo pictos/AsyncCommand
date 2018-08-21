@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AsC.Views.MainPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+           
+            <Button Text    ="Navigation Command"
+                    Command ="{Binding NavigationCommand}"/>
+
+            <Button Text    ="Task"
+                    Command ="{Binding TaskCommand}"/>
+
+            <Button Text    ="Service"
+                    Command ="{Binding ServiceCommand}"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
